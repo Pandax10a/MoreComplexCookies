@@ -1,0 +1,10 @@
+* {
+    display: grid;
+    place-content: center;
+    place-item: center;
+    ;
+}
+
+img {
+    place-self: center;
+}

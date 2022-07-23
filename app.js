@@ -117,5 +117,8 @@ let checkout_page = document.getElementById(`to_checkout_page`);
 checkout_page.addEventListener(`click`, checkout_page_now)
 function checkout_page_now () {
     location.href = "checkout.html";
+    if(Cookies.get(`client_1`) === undefined){
+        document.body.insertAdjacentHTML(`afterbegin`, `<h1> nothing was selected</h1>`);
+    }
 
 }
