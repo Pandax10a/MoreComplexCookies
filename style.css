@@ -10,6 +10,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-rows: auto;
+    height: 100vh;
 
 }
 
@@ -42,4 +43,8 @@ div img {
 
     max-height: 20vh;
     max-width: 20vw;
+}
+div button {
+    width: 100px;
+    height: 20px;
 }
