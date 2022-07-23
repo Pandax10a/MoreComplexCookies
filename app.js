@@ -112,3 +112,10 @@ function add_to_basket9 () {
     let headphone_9_json = JSON.stringify(headphone_9);
     headphone_9_json = Cookies.set(`client_1`, headphone_9_json);
 }
+
+let checkout_page = document.getElementById(`to_checkout_page`);
+checkout_page.addEventListener(`click`, checkout_page_now)
+function checkout_page_now () {
+    location.href = "checkout.html";
+
+}
